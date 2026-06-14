@@ -1,0 +1,9 @@
+int c(void) {
+    return 65;
+}
+
+int main(void) {
+    int compte;
+    compte = c;
+    return 0;
+}

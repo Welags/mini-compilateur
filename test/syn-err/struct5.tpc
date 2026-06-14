@@ -1,0 +1,8 @@
+struct {
+int height, width;
+struct engine motor;
+};
+
+int main(void){
+	return 0;
+}

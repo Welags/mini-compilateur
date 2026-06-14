@@ -1,0 +1,13 @@
+int f(int a){
+    if (a<0){
+        return a;
+    }
+    return 0;
+}
+int main(void){
+    char b;
+    int a;
+    b = 'c';
+    a = f(b);
+    
+}

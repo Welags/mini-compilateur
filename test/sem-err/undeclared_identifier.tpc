@@ -1,0 +1,23 @@
+struct aircraft {
+	int height, width;
+	struct engine motor;
+	};
+
+
+
+int add(int x){
+	struct aircraft camion;
+	return 1;
+}
+int main(void){
+	struct aircraft my_plane, my_shuttle, my_satellite;
+	int a;
+	char c;
+	struct aircraft drone;
+	my_plane.height = 32;
+	my_shuttle=orion;
+	
+	
+	
+	return 0;
+}

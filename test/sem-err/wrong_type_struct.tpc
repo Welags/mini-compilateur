@@ -1,0 +1,10 @@
+struct aircraft {
+	int height;	
+};
+struct motor {
+	char parameters;
+};
+int main(void){
+    motor.parameters = aircraft.height;
+    return 0;
+}

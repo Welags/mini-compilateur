@@ -1,0 +1,10 @@
+struct Lettre {
+    char c;
+};
+
+int main(void) {
+    struct Lettre l;
+    l.c = 300;
+    putchar(l.c);
+    return 0;
+}

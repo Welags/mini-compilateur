@@ -1,0 +1,12 @@
+int main(void){
+	return 0;
+}
+
+int fct(int x){
+	return 32;
+}
+
+struct aircraft {
+	int height, width;
+	struct engine motor;
+	};

@@ -1,0 +1,8 @@
+struct aircraft {
+int height, width;
+struct engine motor;
+}my_plane;
+
+int main(void){
+	return 0;
+}

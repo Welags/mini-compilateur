@@ -1,0 +1,13 @@
+void fctquifaitrien(int x){
+	int a;
+	a = x;
+}
+
+char charfct(int e){
+	char c;
+	return c;
+}
+
+int main(void){
+	return 0;
+}

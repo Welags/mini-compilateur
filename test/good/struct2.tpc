@@ -1,0 +1,16 @@
+struct X {
+    int value;
+};
+
+int X(void) {
+    return 10;
+}
+
+int main(void) {
+    int X;
+    struct X s;
+    X = 2;
+    s.value = X;
+    putint(s.value);
+    return 0;
+}

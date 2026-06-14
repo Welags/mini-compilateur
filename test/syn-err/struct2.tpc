@@ -1,0 +1,15 @@
+struct aircraft {
+int height, width;
+struct engine motor;
+};
+
+int main(void){
+	int a;
+	a = 2;
+	if (a == 2)
+		struct aircraft my_plane, my_shuttle, my_satellite;
+	else
+		a = 21;
+
+	return 0;
+}

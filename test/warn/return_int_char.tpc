@@ -1,0 +1,10 @@
+int rdm(void) {
+    return 777;
+}
+
+int main(void) {
+    char c;
+    c = rdm();
+    putchar(c);
+    return 0;
+}

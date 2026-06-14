@@ -1,0 +1,18 @@
+int main(void) {
+    int x;
+    int resultat;
+    
+    x = 15;
+    resultat = 0;
+
+    if (!(x % 5)) {
+        x = x / 5;      
+        resultat = 1;   
+    }
+
+    if (x) {
+        x = x * 10;    
+    }
+
+    return 0; 
+}

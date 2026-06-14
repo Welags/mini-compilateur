@@ -1,0 +1,7 @@
+int main(void){
+	char k;
+	char camion;
+	camion = '\';
+	k = "u";
+	return 0;
+}

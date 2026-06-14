@@ -1,0 +1,19 @@
+
+
+int f(int a,int b){
+    if (b>a){
+        return a;
+    }
+    return b;
+}
+
+int main(void){
+    int b;
+    int c;
+     int a;
+    b = 5;
+    
+   
+    a = f(b,c);
+    return 0;
+}

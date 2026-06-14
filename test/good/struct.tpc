@@ -1,0 +1,20 @@
+struct Personne {
+    int age;
+    char initiale;
+};
+
+struct Fiche {
+    struct Personne p;
+    int id;
+};
+
+int main(void) {
+    struct Fiche f;
+    f.p.age = 22;
+    f.p.initiale = 'N';
+    f.id = 5;
+    putint(f.p.age);
+    putchar(f.p.initiale);
+    putint(f.id);
+    return 0;
+}

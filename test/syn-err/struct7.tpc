@@ -1,0 +1,10 @@
+struct aircraft {
+	int height, width;
+	struct personne {
+		int age;
+	};
+};
+
+int main(void){
+	return 0;
+}

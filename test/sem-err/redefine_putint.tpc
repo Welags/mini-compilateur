@@ -1,0 +1,7 @@
+void putint(int x) {
+    return;
+}
+
+int main(void) {
+    return 0;
+}

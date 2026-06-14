@@ -1,0 +1,8 @@
+
+
+int main(void){
+    int b;
+    int a;
+    a = bonjour(5);
+    return 0;
+}

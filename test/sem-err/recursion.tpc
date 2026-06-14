@@ -1,0 +1,12 @@
+int fct(int x){
+	int k;
+	if (x <= 1)
+		return 1;
+		k = x*fct(n-1);
+	return k;
+}
+
+int main(void){
+	fct(5);
+	return 0;
+}

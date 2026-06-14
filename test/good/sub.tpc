@@ -1,0 +1,6 @@
+int main(void){
+	int a,c;
+	int b;
+	a = a - 2;
+	return 0;
+}

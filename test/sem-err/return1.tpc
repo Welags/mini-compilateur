@@ -1,0 +1,55 @@
+int varglob;
+
+
+struct personne {
+	int age;
+};
+
+struct aircraft {
+	int height, width;
+	struct personne prsn;
+};
+
+
+int fct(int x){
+	return 76;
+}
+
+void fct3(int k){
+	int b;
+	b = 78;
+}
+
+int fct2(int a){
+	struct aircraft avion;
+	return avion;
+}
+
+
+int main(void){
+	//commentaire
+	/* Commentaire2*/
+	int a,b;
+	char d,c;
+	struct aircraft my_plane;
+	my_plane.height = 32;
+	my_plane.prsn.age = 19;
+	a = 1;
+	d = '\n';
+	c = '\t';
+	while (a < 15){
+		a = a + 1;
+	}
+
+	if (a < 1)
+		a = 18;
+	else if (a ==1)
+		a = 87;
+	else 
+		a = 21;
+	if (!a)
+		fct3(30);
+	else
+		fct(32);
+
+}

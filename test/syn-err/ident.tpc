@@ -1,0 +1,4 @@
+int main(void){
+	int 9k;
+	return 0;
+}

@@ -1,0 +1,9 @@
+void f(char c) {
+    putchar(c);
+    return;
+}
+
+int main(void) {
+    f(164);
+    return 0;
+}

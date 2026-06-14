@@ -1,0 +1,15 @@
+int main(void){
+
+	int a;
+	a = 2;
+	if (a !== 2)
+		a = 4;
+	else
+		a = 5;
+	if (a != 3)
+		a = 32;
+	else
+		a = 21;
+
+	return 0;
+}

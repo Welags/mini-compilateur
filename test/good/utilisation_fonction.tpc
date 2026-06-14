@@ -1,0 +1,9 @@
+void afficher_code(void){
+    putint(4);
+    return;
+}
+
+int main(void){
+    afficher_code();
+    return 0;
+}

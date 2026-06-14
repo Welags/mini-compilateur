@@ -1,0 +1,11 @@
+
+struct aircraft {
+	int height;
+};
+
+
+int main(void){
+    int b;
+    b = aircraft.height;
+    return 0;
+}

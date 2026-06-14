@@ -1,0 +1,16 @@
+
+
+
+char test(void){
+    
+    char bonjour;
+    int b;
+    b = 3;
+    bonjour = 'c';
+    return b;
+}
+
+
+int main(void){
+    return 0;
+}

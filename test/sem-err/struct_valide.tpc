@@ -1,0 +1,12 @@
+struct avion {
+    int largeur;
+    int longueur;
+};
+
+int main(void){
+    struct avion a;
+    a.longueur = 600;
+    a.largeur = 100;
+    putint(p.longueur * p.largeur);
+    return 0;
+}

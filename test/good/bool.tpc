@@ -1,0 +1,17 @@
+int main(void) {
+    int x;
+    int y;
+    int z;
+    int resultat_vrai;
+    int resultat_faux;
+    
+    x = 10;
+    y = 10;
+    z = 100;
+
+    resultat_faux = !(x == y || x > z);
+
+    resultat_vrai = (x != z && x <= y);
+
+    return 0;
+}
